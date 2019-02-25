@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="100dp"
+    android:paddingRight="20dp"
+    tools:context=".Registration">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="221dp"
+        android:layout_height="109dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/add" />
+
+    <EditText
+        android:id="@+id/act2emailet"
+        android:layout_width="310dp"
+        android:layout_height="56dp"
+        android:background="@drawable/custom_control"
+        android:ems="10"
+        android:hint="@string/act2_email_view"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/act2passwordet"
+        android:layout_width="310dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_control"
+        android:ems="10"
+        android:hint="@string/act2_password_view"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:password="true" />
+
+    <EditText
+        android:id="@+id/act2repasswordet"
+        android:layout_width="310dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_control"
+        android:ems="10"
+        android:hint="@string/act2_repassword_view"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:password="true" />
+
+    <Button
+        android:id="@+id/act2registerbt"
+        android:layout_width="310dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_button"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingRight="20dp"
+        android:text="@string/act2_reg_button"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="100dp"
+    android:paddingRight="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="256dp"
+        android:layout_height="104dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/mylogin" />
+
+    <EditText
+        android:id="@+id/emailet"
+        android:layout_width="310dp"
+        android:layout_height="56dp"
+        android:background="@drawable/custom_control"
+        android:drawableLeft="@android:drawable/sym_action_email"
+        android:ems="10"
+        android:hint="@string/email_view"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/passwordet"
+        android:layout_width="310dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_control"
+        android:drawableLeft="@android:drawable/ic_lock_lock"
+        android:ems="10"
+        android:hint="@string/password_view"
+        android:inputType="textPersonName"
+        android:password="true" />
+
+    <Button
+        android:id="@+id/loginbt"
+        android:layout_width="310dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_button"
+        android:gravity="center"
+        android:text="@string/login_button"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/signuptv"
+        android:layout_width="337dp"
+        android:layout_height="59dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/to_register"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+</LinearLayout>
